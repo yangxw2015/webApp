@@ -72,6 +72,7 @@ header span:before{
     border-top:2px solid #fff;
     border-left:2px solid #fff;
     -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 header ul{
     position: absolute;
@@ -169,8 +170,11 @@ header ul li{
     border-bottom:1px solid #ccc;
     font-size: 0.28rem;
     display: flex;
+    -webkit-display: flex;
     flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
     justify-content: space-around;
+    -webkit-justify-content: space-around;
     line-height: 0.7rem;
 }
 .scoreNumber dl{
