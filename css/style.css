@@ -253,11 +253,8 @@ footer section{
     -webkit-align-items: center;
 }
 footer dl{
-    /*position: absolute;
-    left: 0;
-    top: 0;*/
     overflow: hidden;
-    width: 4.2rem;
+    width: 4.6rem;
 }
 footer dl dt{
     float: left;
@@ -279,9 +276,6 @@ footer dl dd:nth-of-type(2){
     color: #6d747d;
 }
 footer button{
-    /*position: absolute;
-    right: 0;
-    top: 0;*/
     display: block;
     width: 1.2rem;
     height: 0.6rem;
